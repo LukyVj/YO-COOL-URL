@@ -1,0 +1,80 @@
+$background: #9b59b6;
+$tabs-base-color: #8e44ad;
+
+.tabs {
+  width: 650px;  
+  float: none;
+  list-style: none;
+  position: relative;
+  margin: 3em auto 4em ;
+  text-align: left;
+  border-radius: 3px;
+  li {
+    float: left;
+    display: block;
+    border-radius: 3px;
+  }
+  input[type="radio"] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    display: none;
+  }
+  label {
+    display: block;
+    padding: 14px 21px;
+    border-radius: 2px 2px 0 0;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: $tabs-base-color;
+    cursor: pointer;
+    position: relative;
+    top: 4px; 
+    transition:all 0.2s ease-in-out;
+    border-radius: 3px;
+    &:hover {
+      background: darken($tabs-base-color, 10);
+    }
+  }
+  .tab-content{
+    z-index: 2;
+    display: none; 
+    overflow: hidden;
+    width: 100%;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 25px;  
+    position: absolute;
+    top: 53px;
+    left: 0; 
+    background: darken($tabs-base-color, 15);
+    border-radius: 3px;
+  }
+  //The Magic
+  [id^="tab"]:checked + label { 
+    top: 0;
+    padding-top: 17px; 
+    background: darken($tabs-base-color, 15); 
+  }
+  [id^="tab"]:checked ~ [id^="tab-content"] {
+    display: block;
+  }
+}
+p.link {
+  clear: both;
+  margin: 380px 0 0 15px;
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: darken($tabs-base-color, 15);
+    transition: all 0.2s ease-in;
+    &:hover {
+      background-color: darken($tabs-base-color, 20);
+    }
+  }
+} 
