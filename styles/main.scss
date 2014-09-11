@@ -4,6 +4,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+$fa-font-path: "../fonts/";
+
+// bower:scss
+@import "font-awesome/font-awesome.scss";
+
 @import url(http://fonts.googleapis.com/css?family=Oxygen:400,700);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
 
@@ -34,6 +39,12 @@ body{
   background: $colorYo;
   color: #fff;
   text-align: center; 
+
+  .container{
+  	width: 100%;
+  	float: left;
+  	min-height: 620px;
+  }
   p,h1,h2,h3,a{
     font-family:  'Oxygen', sans-serif;
   }
@@ -74,5 +85,18 @@ body{
       color: $colorYo; 
       border-color: #fff; 
     }
+  }
+
+
+  footer{
+  	width: 100%;
+  	float: left; 
+  	text-align: center;
+
+  	a{color: #fff;
+  		&:hover{
+  			color: #ccc;
+  		}
+  	}
   }
 }
