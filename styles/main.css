@@ -6064,7 +6064,7 @@ button.close {
     cursor: pointer;
     position: relative;
     top: 4px;
-    transition: all 0.2s ease-in-out;
+    transition: background 0.1s ease-in-out;
     border-radius: 3px; }
     .tabs label:hover {
       background: #703688; }
@@ -6099,7 +6099,7 @@ p.link {
     padding: 5px 10px;
     margin: 0 5px;
     background-color: #612e76;
-    transition: all 0.2s ease-in; }
+    transition: background 0.1s ease-in; }
     p.link a:hover {
       background-color: #522764; }
 
