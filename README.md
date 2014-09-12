@@ -4,8 +4,9 @@ YO COOL URL
 A small app to send URL via the YO network.
 
 ## To be notified
-If you want to be notified about all the cool links of the day, just add `YOCOOLURL` to your YO contacts.
-Then you'll get a YO each time someone will share a link with YO-COOL-URL.
+* Get the app on : [JustYo.co](http://justyo.co)
+* Add `YOCOOLURL` to your YO contacts.
+* Now you can get back to your normal life. 
 
 ## To send COOL URLs
 
