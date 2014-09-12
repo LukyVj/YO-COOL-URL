@@ -6,7 +6,7 @@ A small app to send URL via the YO network.
 ## To be notified
 * Get the app on : [JustYo.co](http://justyo.co)
 * Add `YOCOOLURL` to your YO contacts.
-* Now you can get back to your normal life. 
+* Now you can get back to your normal life, and wait to get a YO. 
 
 ## To send COOL URLs
 
